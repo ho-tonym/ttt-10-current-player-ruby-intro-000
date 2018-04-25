@@ -3,8 +3,6 @@ counter = 0
   board.each do |numba|
     if numba == "X" || numba == "O"
       counter +=1
-    else
-      break
     end
   end
 return counter
