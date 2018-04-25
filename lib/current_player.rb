@@ -1,7 +1,7 @@
 def turn_count(board)
 counter = 0
   board.each do |numba|
-    if numba = "X" || numba = "O"
+    if numba == "X" || numba == "O"
       counter +=1
     else
       break
